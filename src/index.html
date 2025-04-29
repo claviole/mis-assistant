@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Target Steel MIS Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/TARGETSTEEL_logo.png" type="image/png" />
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="assets/TARGETSTEEL_logo.png"
+        alt="Target Steel"
+        class="company-logo"
+      />
+      <span>MIS Assistant</span>
+    </div>
+    <div id="chatbox" class="chatbox"></div>
+    <div class="input-area">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Ask a question about MIS..."
+      />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
