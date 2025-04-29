@@ -114,8 +114,8 @@ async function typeHtml(container, html, speed = 8) {
 
 async function callAssistantAPI(message) {
   const assistant_id = "asst_R5CDQgGt5pnMYM2rLAPeY4oc"; // replace with your own if needed
-  const api_key =
-    "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";
+  const api_key = API_KEY;
+
 
   const headers = {
     Authorization: `Bearer ${api_key}`,
